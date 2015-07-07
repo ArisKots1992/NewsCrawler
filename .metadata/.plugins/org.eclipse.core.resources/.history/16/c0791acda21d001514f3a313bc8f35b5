@@ -27,7 +27,7 @@ public class Global {
     	RSS.put("abcnews","http://feeds.abcnews.com/abcnews/internationalheadlines");	//WORKING
     	RSS.put("Latimes","http://www.latimes.com/world/rss2.0.xml");		//WORKING
     	RSS.put("The Guardian","http://www.theguardian.com/world/rss");		// NA FTIAKSW AN DEN KSEKINANE ME http/domain/..
-    //	RSS.put("Independent","http://rss.feedsportal.com/c/266/f/3492/index.rss"); //LATHOS APOTELESMATA!!!
+    	RSS.put("Independent","http://rss.feedsportal.com/c/266/f/3492/index.rss");
     	RSS.put("Reuters","http://feeds.reuters.com/Reuters/worldNews");
     	RSS.put("Sky-News","http://feeds.skynews.com/feeds/rss/world.xml");
     	RSS.put("Telegraph","http://www.telegraph.co.uk/news/worldnews/rss"); 

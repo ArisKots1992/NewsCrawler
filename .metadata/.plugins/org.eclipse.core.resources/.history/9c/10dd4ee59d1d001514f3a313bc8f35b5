@@ -27,12 +27,13 @@ public class Global {
     	RSS.put("abcnews","http://feeds.abcnews.com/abcnews/internationalheadlines");	//WORKING
     	RSS.put("Latimes","http://www.latimes.com/world/rss2.0.xml");		//WORKING
     	RSS.put("The Guardian","http://www.theguardian.com/world/rss");		// NA FTIAKSW AN DEN KSEKINANE ME http/domain/..
-    //	RSS.put("Independent","http://rss.feedsportal.com/c/266/f/3492/index.rss"); //LATHOS APOTELESMATA!!!
+    	RSS.put("Independent","http://rss.feedsportal.com/c/266/f/3492/index.rss");
     	RSS.put("Reuters","http://feeds.reuters.com/Reuters/worldNews");
     	RSS.put("Sky-News","http://feeds.skynews.com/feeds/rss/world.xml");
     	RSS.put("Telegraph","http://www.telegraph.co.uk/news/worldnews/rss"); 
     	RSS.put("cbc","http://www.cbc.ca/cmlink/rss-world");	//WORKING(no desc)
     	RSS.put("rte","http://www.rte.ie/news/rss/news-headlines.xml");
+    	RSS.put("zeenews-india","http://zeenews.india.com/rss/world-news.xml");
     	RSS.put("Global News","http://globalnews.ca/feed/");
     	RSS.put("cbsnews","http://www.cbsnews.com/latest/rss/world");	//WORKING
     	RSS.put("irishtimes","https://www.irishtimes.com/cmlink/news-1.1319192");
@@ -50,21 +51,6 @@ public class Global {
     	RSS.put("sciencedaily","http://feeds.sciencedaily.com/sciencedaily");
     	RSS.put("nwfdailynews","http://www.nwfdailynews.com/cmlink/news-rss-1.2266");
     	RSS.put("scrippsobfeeds","http://scrippsobfeeds.endplay.com/content-syndication-portlet/feedServlet?obfType=RSS_FEED&siteId=100108&categoryId=10001");
-    	//some new websites
-    	RSS.put("AP","http://hosted2.ap.org/atom/APDEFAULT/cae69a7523db45408eeb2b3a98c0c9c5");
-        RSS.put("sbs Asia Pacific News","http://sbs.feedsportal.com/c/34692/f/637529/index.rss");
-        RSS.put("sbs Europe News","http://sbs.feedsportal.com/c/34692/f/637531/index.rss");
-        RSS.put("sbs North America News","http://sbs.feedsportal.com/c/34692/f/637533/index.rss");
-        RSS.put("sbs South America News","http://sbs.feedsportal.com/c/34692/f/637534/index.rss");
-        RSS.put("sbs Africa News","http://sbs.feedsportal.com/c/34692/f/637532/index.rss");
-        RSS.put("sbs Middle East News","http://sbs.feedsportal.com/c/34692/f/637530/index.rss");
-        RSS.put("UPI","http://rss.upi.com/news/tn_int.rss");
-        RSS.put("USATODAY","http://rssfeeds.usatoday.com/usatodaycomworld-topstories&x=1");
-        RSS.put("NEWS","http://feeds.news.com.au/public/rss/2.0/news_theworld_3356.xml");
-        RSS.put("SMH","http://www.smh.com.au/rssheadlines/world/article/rss.xml");
-        RSS.put("Washington Post","http://feeds.washingtonpost.com/rss/rss_blogpost");
-        RSS.put("Times of India","http://timesofindia.feedsportal.com/c/33039/f/533917/index.rss");
-        RSS.put("canada","http://rss.canada.com/get/?F7432");
     	
     }
 	public static void setTrustAllCerts() throws Exception {

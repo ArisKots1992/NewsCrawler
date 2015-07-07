@@ -96,11 +96,8 @@ public class Main {
 	private void doWithCachedThreadPool() throws Exception {
 		Global.setTrustAllCerts();
 		// Here we store everything about the site
-	//	ExecutorService executor = Executors.newCachedThreadPool();
-		ExecutorService executor = Executors.newFixedThreadPool(20);
+		ExecutorService executor = Executors.newCachedThreadPool();
 
-		
-		
 		// for each site get its rss news and store them in Site class.
 		for (String key : Global.RSS.keySet()) {
 			String Name = key;

@@ -95,7 +95,6 @@ public class Site {
 		rootElement.setAttribute("name", SiteName);
 		doc.appendChild(rootElement);
 		
-
 		for(int i=0; i<this.AritcleList.size(); i++)
 		{	
 			// Article elements
